@@ -1,0 +1,17 @@
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\bin\Debug\net6.0\Backend.Infraestructure.deps.json
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\bin\Debug\net6.0\Backend.Infraestructure.runtimeconfig.json
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\bin\Debug\net6.0\Backend.Infraestructure.dll
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\bin\Debug\net6.0\Backend.Infraestructure.pdb
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\bin\Debug\net6.0\Backend.Core.dll
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\bin\Debug\net6.0\Backend.Core.pdb
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.csproj.AssemblyReference.cache
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.AssemblyInfoInputs.cache
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.AssemblyInfo.cs
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.csproj.CoreCompileInputs.cache
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.csproj.CopyComplete
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.dll
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\refint\Backend.Infraestructure.dll
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.pdb
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\Backend.Infraestructure.genruntimeconfig.cache
+D:\Proyectos\GitHub\PruebaTecnicaBallenaSoft\Backend\PruebaTecnicaBackend\Backend.Infraestructure\obj\Debug\net6.0\ref\Backend.Infraestructure.dll
