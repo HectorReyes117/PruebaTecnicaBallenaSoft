@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "YRHXCR4dV/pY3lBwm3KGJkUd5D/Jz/cKEnWYwpPtloVGe3wUL4vRs99yKlsGMok1HpkNQ2LT2U31Zcfk6tI+zg==",
+  "dgSpecHash": "y3+My1r0+B4FoZAiZN4+hTCo5otuhS2f1wJxttaV+v4UYDXJHoAgEwI6z6JAkSr6hgNScz+YQEo9XvQXnrMqUw==",
   "success": true,
   "projectFilePath": "D:\\Proyectos\\GitHub\\PruebaTecnicaBallenaSoft\\Backend\\PruebaTecnicaBackend\\Backend.Infraestructure\\Backend.Infraestructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hector\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.14\\microsoft.data.sqlite.core.6.0.14.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.14\\microsoft.entityframeworkcore.6.0.14.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.14\\microsoft.entityframeworkcore.abstractions.6.0.14.nupkg.sha512",

@@ -15,21 +15,44 @@ namespace Backend.Core.Services
             return _unitOfWork.InsuranceRepository.GetAll();
         }
 
-        public async Task InsertInsurance(Insurance Insurance)
+        public async Task<bool> InsertInsurance(Insurance Insurance)
         {
-            await _unitOfWork.InsuranceRepository.Add(Insurance);
-            await _unitOfWork.SaveChangesAsync();
+            try
+            {
+                await _unitOfWork.InsuranceRepository.Add(Insurance);
+                await _unitOfWork.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
-        public bool UpdateInsurance(Insurance Insurance)
+        public async Task<bool> UpdateInsurance(Insurance Insurance)
         {
-           _unitOfWork.InsuranceRepository.Update(Insurance);
+            var result = await _unitOfWork.InsuranceRepository.GetById(Insurance.Id);
+            if (result == null)
+            {
+                return false;
+            }
+            result.Name = Insurance.Name;
+            result.Commission = Insurance.Commission;
+            result.UpdateDate = DateTime.Now;
+            _unitOfWork.InsuranceRepository.Update(result);
             _unitOfWork.SaveChanges();
             return true;
         }
+
         public async Task<bool> DeleteInsurance(int id)
         {
-           await _unitOfWork.InsuranceRepository.Delete(id);
+            var result = _unitOfWork.InsuranceRepository.GetById(id);
+            if (result.Result == null)
+            {
+                return false;
+            }
+
+            await _unitOfWork.InsuranceRepository.Delete(id);
            await _unitOfWork.SaveChangesAsync();
            return true;
         }

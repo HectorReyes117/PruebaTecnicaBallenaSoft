@@ -9,7 +9,7 @@ namespace Backend.Core.Entities
     public class Insurance : BaseEntity
     {
         public string Name { get; set; }
-        public double Commission { get; set; }
+        public double Commission { get; set; } 
         public bool State { get; set; }
     }
 }
