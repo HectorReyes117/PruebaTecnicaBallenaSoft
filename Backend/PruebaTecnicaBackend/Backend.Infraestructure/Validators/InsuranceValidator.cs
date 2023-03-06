@@ -12,7 +12,8 @@ namespace Backend.Infraestructure.Validators
             RuleFor(x => x.Name)
                 .Length(1, 45).WithMessage("Debe contener entre 1 y 45 caracteres");
             RuleFor(x => x.Commission)
-                .GreaterThan(0.25).WithMessage("Debe contener un porcentaje mas pequeño de 0.25");   
+                .LessThan(0.25)
+                .GreaterThan(0).WithMessage("Debe contener un porcentaje mas pequeño de 0.25 y mas grande de 0");   
         }
     }
 }

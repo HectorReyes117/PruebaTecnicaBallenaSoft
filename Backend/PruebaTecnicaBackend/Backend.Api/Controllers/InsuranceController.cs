@@ -3,7 +3,6 @@ using Backend.Api.Responses;
 using Backend.Core.DTOs;
 using Backend.Core.Entities;
 using Backend.Core.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Api.Controllers
@@ -78,7 +77,7 @@ namespace Backend.Api.Controllers
             return Ok(response);
         }
 
-        [HttpDelete("id")]
+        [HttpDelete]
         public async Task<IActionResult> DeleteInsurance(int id)
         {
             var response = new ApiResponses();
