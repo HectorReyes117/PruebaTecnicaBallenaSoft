@@ -15,7 +15,6 @@ namespace Backend.Infraestructure.Repositories
         private readonly ApplicationContext _context;
         protected DbSet<T> _entities;
 
-
         public BaseRepository(ApplicationContext context)
         {
             this._context = context;
