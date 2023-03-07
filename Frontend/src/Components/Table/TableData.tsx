@@ -12,10 +12,11 @@ import {  Data } from '../../interfaces/IApi';
 
 export const TableData : React.FC = () : JSX.Element => {
   
-  const { data, get, responseState} = useApi();
 
-  const {open, handleClose, open2, handleClose2, haddleOpenFuntion, haddleOpenFuntion2, id} = UseOpen();
+  const { data} = useApi();
   
+  const {open, handleClose, open2, handleClose2, haddleOpenFuntion, haddleOpenFuntion2, id} = UseOpen();
+
   return (
    <div>
      <Box display='flex' justifyContent='start'>
